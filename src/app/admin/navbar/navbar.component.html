@@ -1,0 +1,38 @@
+
+
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Add new Food</h4>
+    <button type="button" class="btn-close" aria-label="Close" ></button>
+  </div>
+  <div class="modal-body">
+    <form>
+
+      <div class="mb-3">
+        <label for="product-name">Food Name</label>
+        <div class="input-group">
+          <input id="Product-name" class="form-control" type="text" placeholder=""
+                ></div>
+      </div>
+      <div class="mb-3">
+        <label for="product-prix">Food price</label>
+        <div class="input-group">
+          <input id="Product-prix" class="form-control" type="text" placeholder=" "
+              ></div>
+      </div>
+      <div class="mb-3">
+        <label for="product-cdate">Cook Time</label>
+        <div class="input-group">
+          <input id="Product-cdate" class="form-control" type="text" placeholder=""
+                ></div>
+      </div>
+
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-success" (click)="addFood(food)"
+           >Add
+    </button>
+    <button type="button" class="btn btn-danger" >Cancel</button>
+  </div>
+
+
